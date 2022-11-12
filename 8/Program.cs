@@ -8,8 +8,8 @@ Console.WriteLine("Программа выведет все чётные чис�
 int number = Convert.ToInt32(Console.ReadLine());
 if (number < 0) {
     Console.WriteLine("Вы ввели отрицательное число. Оно будет взято по модулю!");
+    number = Math.Abs(number);
 }
-number = Math.Abs(number);
 if (number == 1 || number == 0) {
     Console.WriteLine("Таких чисел нет");
 }
