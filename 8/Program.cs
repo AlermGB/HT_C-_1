@@ -14,8 +14,10 @@ if (number == 1) {
 }
 else  {
     int count = 2;
+        Console.Write(count);
+        count = count + 2;
     while (count <= number) {
-        Console.Write($"{count} ");
+        Console.Write($", {count}");
         count = count + 2;
     }
 }
